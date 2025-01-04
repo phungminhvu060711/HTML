@@ -1,0 +1,19 @@
+#features {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    padding: 2rem 0;
+  }
+  
+  #features .card {
+    margin: 1rem;
+  }
+  
+  #features .card img {
+    height: 18rem;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    text-align: center;
+  }

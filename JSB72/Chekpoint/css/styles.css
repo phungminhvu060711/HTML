@@ -1,0 +1,43 @@
+body {
+    background-color: #f0f0f0; /* Bạn có thể thay đổi màu theo ý thích */
+}
+
+h1 {
+    color: #333333;
+}
+
+p {
+    color: #666666;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+p, li {
+    text-align: left;
+}
+
+.skill-list, .social-links {
+    border: 2px solid #cccccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333333;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+}
+
+#back-to-top:hover {
+    background-color: #555555;
+}
