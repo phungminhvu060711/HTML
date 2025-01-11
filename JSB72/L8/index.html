@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+  </head>
+  <body>
+    <!-- start register form -->
+    <form action="" id="register_form">
+      <!-- email -->
+      <label for="re_email"> Email: </label>
+      <input type="email" name="email" id="re_email" required/>
+      <br />
+      <!-- username -->
+       <label for="re_username">Username: </label>
+       <input type="text" name="username" id="re_username" minlength="6" maxlength="18" required/>
+       <br />
+      <!-- password -->
+      <label for="re_password">password: </label>
+      <input type="password" name="password" id="re_password" minlength="6" maxlength="18" required/>
+      <br />
+      <!-- confirm password -->
+      <label for="re_confirm_password">Confirm Password: </label>
+      <input type="password" name="confirm_password" id="re_confirm_password" minlength="6" maxlength="18" required/>
+      <br />
+      <!-- button submit -->
+      <button type="submit">Submit form</button>
+      <!-- button reset -->
+      <button type="reset">Reset form</button>
+    </form>
+    <!-- end register form -->
+  </body>
+</html>
